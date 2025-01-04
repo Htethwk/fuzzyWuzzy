@@ -2,8 +2,8 @@ import pandas as pd
 from fuzzywuzzy import fuzz, process
 
 # Load data into DataFrames
-df_1527 = pd.read_excel(r'C:\Users\htethtetwinkhine.YOMABANK\Desktop\Python\1_30_2024\CleanWCNRC.xlsx', sheet_name = 'Sheet1')
-df_1_2_million = pd.read_excel(r'C:\Users\htethtetwinkhine.YOMABANK\Desktop\Python\1_30_2024\FBE_All_Customer_Data_Name_NRC_BRN_DOB_PTTYPE_CIF.xlsx', sheet_name = 'Sheet4')
+df_1527 = pd.read_excel(r'blacklistedCustomer.xlsx', sheet_name = 'Sheet1')
+df_1_2_million = pd.read_excel(r'dataset.xlsx', sheet_name = 'Sheet4')
 
 
 
